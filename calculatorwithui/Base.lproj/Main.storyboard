@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,11 +22,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="mci-NC-xjb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="mci-NC-xjb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IVa-Y2-gbA">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IVa-Y2-gbA" userLabel="main Stack View">
                                 <rect key="frame" x="26" y="30" width="323" height="627"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="p32-gc-Ip4">
@@ -36,7 +35,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="O0B-Do-VEJ">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="O0B-Do-VEJ" userLabel="first Stack View">
                                         <rect key="frame" x="0.0" y="127.5" width="323" height="117.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7N-UW-wZi">
@@ -101,7 +100,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="d9g-rp-bfd">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="d9g-rp-bfd" userLabel="second Stack View">
                                         <rect key="frame" x="0.0" y="255" width="323" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQC-FG-iwX">
@@ -166,7 +165,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="u05-k9-02b">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="u05-k9-02b" userLabel="third Stack View">
                                         <rect key="frame" x="0.0" y="382" width="323" height="117.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyE-wE-kbl">
@@ -231,7 +230,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="k59-vw-cE6">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="k59-vw-cE6" userLabel="fourth Stack View">
                                         <rect key="frame" x="0.0" y="509.5" width="323" height="117.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLJ-Au-3Ys">
@@ -297,13 +296,30 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="u05-k9-02b" firstAttribute="leading" secondItem="IVa-Y2-gbA" secondAttribute="leading" id="BVn-4j-GTW"/>
+                                    <constraint firstAttribute="trailing" secondItem="d9g-rp-bfd" secondAttribute="trailing" id="Ojl-dI-bXQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="O0B-Do-VEJ" secondAttribute="trailing" id="RP8-E8-W6K"/>
+                                    <constraint firstItem="k59-vw-cE6" firstAttribute="leading" secondItem="IVa-Y2-gbA" secondAttribute="leading" id="RVk-fd-AMI"/>
+                                    <constraint firstItem="p32-gc-Ip4" firstAttribute="leading" secondItem="IVa-Y2-gbA" secondAttribute="leading" id="Yyd-nq-8U4"/>
+                                    <constraint firstAttribute="trailing" secondItem="p32-gc-Ip4" secondAttribute="trailing" id="ZJo-dd-Mjq"/>
+                                    <constraint firstAttribute="trailing" secondItem="u05-k9-02b" secondAttribute="trailing" id="lhS-zD-Li2"/>
+                                    <constraint firstItem="p32-gc-Ip4" firstAttribute="top" secondItem="IVa-Y2-gbA" secondAttribute="top" id="tZj-f9-yq4"/>
+                                    <constraint firstItem="d9g-rp-bfd" firstAttribute="leading" secondItem="IVa-Y2-gbA" secondAttribute="leading" id="wVC-jk-ClH"/>
+                                    <constraint firstItem="O0B-Do-VEJ" firstAttribute="leading" secondItem="IVa-Y2-gbA" secondAttribute="leading" id="waG-Sn-MPI"/>
+                                    <constraint firstAttribute="trailing" secondItem="k59-vw-cE6" secondAttribute="trailing" id="x4E-Ky-Dhd"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="mci-NC-xjb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="1R9-Wk-q1o"/>
+                            <constraint firstItem="mci-NC-xjb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="7Dg-09-63A"/>
                             <constraint firstAttribute="trailingMargin" secondItem="IVa-Y2-gbA" secondAttribute="trailing" constant="10" id="Gti-jV-e1H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mci-NC-xjb" secondAttribute="trailing" constant="-16" id="SuX-GD-DVj"/>
                             <constraint firstItem="IVa-Y2-gbA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="WKs-8O-2L8"/>
                             <constraint firstItem="IVa-Y2-gbA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="j3N-81-pdA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mci-NC-xjb" secondAttribute="bottom" id="kIX-7G-BdQ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IVa-Y2-gbA" secondAttribute="bottom" constant="10" id="uts-Dp-Ig9"/>
                         </constraints>
                     </view>
